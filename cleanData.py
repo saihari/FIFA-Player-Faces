@@ -56,5 +56,5 @@ if __name__ == "__main__":
         os.makedirs(image_dir)
     
     data = [each.replace("\\", "/") for each in glob.glob(config.TargetDir + "/*png") ]
-    baseImage = io.imread(config.TargetDir + r"/1605.png")
+    baseImage = io.imread(config.TargetDir + r"/1605.png") # A Ground Truth Image for checking if it is a no face image
     dispatchJobs(data, 8, baseImage)

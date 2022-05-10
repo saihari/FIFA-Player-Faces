@@ -1,5 +1,5 @@
 #Storage path for MetaData
-MetaDataPath = "./data/metadata"
+MetaDataPath = "./metadata"
 
 #Number of CPU's for parallel processing
 NumCPU = 8
